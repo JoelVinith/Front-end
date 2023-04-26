@@ -1,0 +1,26 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: crimson;
+}
+
+div {
+  font-style: oblique;
+  display: contents;
+}
+
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  color: darkmagenta;
+  font-style: italic;
+}
