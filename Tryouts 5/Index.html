@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <h1>Basic Form</h1>
+    <div class="form">
+      <form action="" method="post">
+        <label for="fname">First Name:</label><br />
+        <input
+          type="text"
+          name="fname"
+          placeholder="First Name"
+          required
+        /><br /><br />
+
+        <label for="lname">Last Name:</label><br />
+        <input
+          type="text"
+          name="lname"
+          placeholder="Last Name"
+          required
+        /><br /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="email"
+          required
+        /><br /><br />
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+        /><br /><br />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" required /><br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" />
+        <label for="female">Female</label><br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(230, 241, 253);
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+input[type="email"] {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+input[type="password"] {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+div {
+  border: 2px solid black;
+  margin: 10px 500px;
+  padding: 20px;
+}
