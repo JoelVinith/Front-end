@@ -1,0 +1,289 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body {
+  background-color: rgb(190, 248, 248);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Germany {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Germany .item1 {
+  background-color: black;
+  width: 30%;
+  height: 90px;
+}
+
+.Germany .item2 {
+  background-color: red;
+  width: 30%;
+  height: 90px;
+}
+
+.Germany .item3 {
+  background-color: yellow;
+  width: 30%;
+  height: 90px;
+}
+
+.France {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.France .item1 {
+  background-color: rgb(7, 7, 156);
+  width: 10%;
+  height: 250px;
+}
+
+.France .item2 {
+  background-color: white;
+  width: 10%;
+  height: 250px;
+}
+
+.France .item3 {
+  background-color: red;
+  width: 10%;
+  height: 250px;
+}
+
+.Switzerland {
+  background-color: red;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: auto;
+  height: 15rem;
+}
+
+.Switzerland .item1 {
+  background-color: white;
+  position: absolute;
+  width: 15%;
+  height: 60%;
+  top: 20%;
+}
+
+.Switzerland .item2 {
+  background-color: white;
+  position: absolute;
+  width: 30%;
+  padding: 6%;
+  top: 39%;
+}
+
+.Finland {
+  background-color: rgb(16, 16, 162);
+  display: flex;
+  position: relative;
+  width: 30%;
+  margin: auto;
+  height: 220px;
+}
+
+.Finland .item1 {
+  width: 25%;
+  height: 70px;
+  top: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.Finland .item2 {
+  width: 55%;
+  height: 70px;
+  right: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.Finland .item3 {
+  width: 25%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+
+.Finland .item4 {
+  width: 55%;
+  height: 70px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.England {
+  background-color: red;
+  display: flex;
+  position: relative;
+  width: 30%;
+  margin: auto;
+  height: 220px;
+}
+
+.England .item1 {
+  width: 42%;
+  height: 80px;
+  top: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.England .item2 {
+  width: 42%;
+  height: 80px;
+  right: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.England .item3 {
+  width: 42%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+
+.England .item4 {
+  width: 42%;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.Gambia {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  height: 280px;
+}
+
+.Gambia .item1 {
+  background-color: red;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.Gambia .item2 {
+  background-color: blue;
+  width: 100%;
+  height: 90px;
+}
+
+.Gambia .item3 {
+  background-color: green;
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+}
+
+.Indonesia {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  height: 200px;
+}
+
+.Indonesia .item1 {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+}
+
+.Japan {
+  background-color: white;
+  position: relative;
+  width: 30%;
+  margin: auto;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.Japan .item1 {
+  background-color: red;
+  width: 10%;
+  margin: auto;
+  height: 50px;
+  border-radius: 100px;
+  padding: 15px;
+  position: absolute;
+  top: 32%;
+  left: 40%;
+}
+
+.Latvia {
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  height: 200px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.Latvia .item1 {
+  background-color: brown;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.Latvia .item2 {
+  background-color: brown;
+  height: 50%;
+  margin-top: 22px;
+}
+
+.Madagascar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 30%;
+  margin: auto;
+  height: 200px;
+}
+
+.Madagascar .item1 {
+  background-color: rgb(222, 69, 13);
+  width: 70%;
+  margin-left: 30%;
+  height: 100px;
+}
+
+.Madagascar .item2 {
+  background-color: green;
+  width: 70%;
+  margin-left: 30%;
+  height: 100px;
+}
